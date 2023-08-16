@@ -95,3 +95,10 @@ console.log(bestBoxers)
 console.log(bestBoxers.get(1))
 console.log(bestBoxers.get(2))
 console.log(bestBoxers.get(3))
+
+console.log("-----------------------------")
+
+// Working with Sets in JavaScript
+const repetitiveFruits = ["apple", "pear", "apple", "pear", "plum", "apple"];
+const uniqueFruits = new Set(repetitiveFruits)
+console.log(uniqueFruits)
