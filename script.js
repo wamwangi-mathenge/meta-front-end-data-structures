@@ -78,3 +78,20 @@ droneKeys.forEach(function(key){
     result.push(key, drone[key])
 })
 console.log(result)
+
+console.log("---------------------------")
+
+// Working with Maps in JS
+// Example 1
+// Use the Map constructor to make a new Map
+let bestBoxers = new Map();
+bestBoxers.set(1, "The Champion");
+bestBoxers.set(2, "The Runner's Up")
+bestBoxers.set(3, "The 2nd Runners Up")
+
+console.log(bestBoxers)
+
+// To get the specific value, use the get() method
+console.log(bestBoxers.get(1))
+console.log(bestBoxers.get(2))
+console.log(bestBoxers.get(3))
