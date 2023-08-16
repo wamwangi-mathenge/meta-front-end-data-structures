@@ -52,3 +52,14 @@ const evenNumbers = numms.filter(function(numm){
     return numm % 2 == 0
 })
 console.log(evenNumbers)
+
+console.log("------------------------")
+console.log("------------------------")
+
+// The map() method
+// Example 1
+const nummms = [0,10,20,30,40,50]
+const dividedByTen = nummms.map(function(nummm){
+    return nummm / 10
+})
+console.log(dividedByTen)
